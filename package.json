@@ -1,0 +1,36 @@
+{
+  "name": "reactjs-test-stub",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "bpmn-js": "2.5.2",
+    "cuid": "^2.1.4",
+    "mobx": "^5.5.1",
+    "mobx-react": "^5.3.4",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-router": "4.3.1",
+    "react-router-dom": "4.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.4",
+    "react-scripts": "2.0.5",
+    "enzyme": "3.7.0",
+    "enzyme-adapter-react-16": "1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"./src/**/*.js\""
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
